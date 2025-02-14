@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "npm run build && npm run start",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@workspace/typescript-config": "workspace:*",
+    "@workspace/common": "workspace:*",
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "Akhil",
+  "license": "MIT"
+}

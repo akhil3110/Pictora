@@ -1,0 +1,15 @@
+{
+  "name": "@workspace/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "exports": {},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "prisma": "^6.3.1"
+  }
+}
