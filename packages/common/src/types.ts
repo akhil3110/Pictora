@@ -2,7 +2,7 @@ import {z} from "zod"
 
 export const TrainModel = z.object({
     name: z.string(),
-    type: z.enum(["Man","Woman","Other"]),
+    type: z.enum(["Man","Woman","Others"]),
     age: z.number(),
     ethinicity: z.enum(["White", 
         "Black", 
@@ -14,7 +14,7 @@ export const TrainModel = z.object({
         "Pacific", 
         "Hispanic"
     ]),
-    eyeColor: z.enum(["Brown","Blue","Hazel","Green","Grey"]),
+    eyeColor: z.enum(["Brown","Blue","Hazel","Gray"]),
     bald: z.boolean(),
     imageUrl: z.array(z.string())
 })

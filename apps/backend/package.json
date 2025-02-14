@@ -9,9 +9,12 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
-    "@workspace/typescript-config": "workspace:*",
     "@workspace/common": "workspace:*",
+    "@workspace/db": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   },
   "keywords": [],
